@@ -10,22 +10,50 @@
 
   <link rel="stylesheet" href="app/css/styles.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <style>
-    .box h2 {
-      font-family: 'Raleway-black';
-      text-transform: uppercase;
-    }
-    .box h3 {
-      font-family : 'Lato-thin';
-    }
-  </style>
+  <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+
 </head>
 <body>
-  <div class="container">
-    <h1>Test </h1>  
-  </div>
+  <header>
+    <nav>
+      <div class="container-fluid">
+        <div class="brand-holder">
+          <img src="app/images/logo.png" alt="">
+        </div>
+        <h3>Part Cross Reference</h3>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="container">
+      <div class="login">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="form-group">
+              <label class="block" for="username">Username</label>
+              <input type="text" name="username" id="username"value="">
+            </div>
+            <div class="form-group">
+              <label class="block" for="password">Password</label>
+              <input type="text" name="password" id= "password" value="">
+            </div>
+            <div class="form-group">
+              <!--<input type="checkbox" id="checkbox" name="" value="">-->
+              <input type="checkbox" data-toggle="toggle" data-size="small">
+              <label for="">Remember me</label>
+            </div>
+          </div>
+        </div>
+        <div class="foot">
+          <button type="button" name="button" id="log-btn">Login</button>
+          <p> © 2017 - PCR </p>
+        </div>
+      </div>
+    </div>
+  </main>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
   <script type="text/javascript" src="app/js/main.js"></script>
 </body>
 </html>

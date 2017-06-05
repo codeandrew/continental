@@ -1,0 +1,102 @@
+
+<!doctype html>
+<html>
+<head>
+  <title>Project</title>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="stylesheet" href="app/css/styles.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="container-fluid">
+        <div class="brand-holder">
+          <img src="app/images/logo.png" alt="">
+        </div>
+        <h3>Part Cross Reference</h3>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="dashboard">
+      <div class="container-fluid">
+        <div class="dash-head">
+          <h3>Welcome to Continental
+            Contitech Part Cross Reference<br>
+            Lightweight PVC Conveyor Belts</h3>
+          <p>To find Continental Contitech Recommended Product, please enter the
+            competitor data.</p>
+       </div>
+       <div class="compete">
+         <div class="form-group">
+           <label for="">Competitor</label>
+           <input type="text" name="" value="">
+         </div>
+         <div class="form-group">
+           <label for="">Competitor part number: </label>
+           <input type="text" name="" value="">
+         </div>
+       </div>
+      </div>
+
+      <div class="foot">
+        <button type="button" name="button" id="search" data-toggle="modal" data-target="#myModal">Search</button>
+        <p> © 2017 - PCR </p>
+      </div>
+
+      <!-- Modal -->
+      <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Modal Header</h4>
+            </div>
+            <div class="modal-body">
+              <table id="mod-table" class="table table-hover">
+                <thead>
+                  <tr>
+                    <th>Chiriono</th>
+                    <th>Contitech</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>EL2-U10 FL</td>
+                    <td>No Product</td>
+                  </tr>
+                  <tr>
+                    <td>Mary</td>
+                    <td>Moe</td>
+                  </tr>
+                  <tr>
+                    <td>July</td>
+                    <td>Dooley</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </main>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+  <script type="text/javascript" src="app/js/main.js"></script>
+</body>
+</html>
