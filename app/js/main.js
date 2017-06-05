@@ -1,3 +1,16 @@
+var preLoader = document.querySelector('#loader-wrapper');
+var mainBody = document.querySelector('#main-body');
+//window fadeIn
+if(preLoader != null){
+	$(document).ready(function(){
+		setTimeout(function(){
+			$(preLoader).css("display","none")
+		}, 3000);
+		$(mainBody).delay(2500).fadeIn(500);
+	});
+}
+
+
 var m = function(msg){
 	console.log(msg);
 }
