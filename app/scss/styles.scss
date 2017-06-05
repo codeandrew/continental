@@ -19,6 +19,7 @@ font-family: $afont ;
 html, body  {
   overflow-x: hidden;
   overflow-y: hidden;
+  height : 100%;
 }
 
 .center {
@@ -125,4 +126,21 @@ header {
 		color : orange;
 		text-transform: uppercase;
 	}
+}
+
+
+
+
+#front {
+  height : 100%;
+  background-color : black;
+  .hero-banner {
+    //width : 375px;
+    //margin : 0 auto;
+    position : absolute;
+    top : 20%;
+    img {
+      width : 100%; height : auto;
+    }
+  }
 }
