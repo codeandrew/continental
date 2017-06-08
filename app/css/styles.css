@@ -136,3 +136,6 @@ header {
     #front .hero-banner img {
       width: 100%;
       height: auto; }
+
+#results {
+  padding: 10px 0; }
